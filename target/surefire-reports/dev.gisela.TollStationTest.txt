@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: dev.gisela.TollStationTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.007 s <<< FAILURE! - in dev.gisela.TollStationTest
+dev.gisela.TollStationTest.testRegisterCar()  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "dev.gisela.TollStation.registerVehicle(dev.gisela.Vehicle)" because "this.tollStation" is null
+	at dev.gisela.TollStationTest.testRegisterCar(TollStationTest.java:21)
+
+dev.gisela.TollStationTest.testRegisterMotorcycle()  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "dev.gisela.TollStation.registerVehicle(dev.gisela.Vehicle)" because "this.tollStation" is null
+	at dev.gisela.TollStationTest.testRegisterMotorcycle(TollStationTest.java:30)
+
+dev.gisela.TollStationTest.testRegisterTruck()  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "dev.gisela.TollStation.registerVehicle(dev.gisela.Vehicle)" because "this.tollStation" is null
+	at dev.gisela.TollStationTest.testRegisterTruck(TollStationTest.java:39)
+
+dev.gisela.TollStationTest.testTotalCollected()  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "dev.gisela.TollStation.registerVehicle(dev.gisela.Vehicle)" because "this.tollStation" is null
+	at dev.gisela.TollStationTest.testTotalCollected(TollStationTest.java:51)
+
